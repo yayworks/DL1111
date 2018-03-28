@@ -65,23 +65,9 @@ RUN chmod +x /usr/local/config.sh && chown nimbix.nimbix /usr/local/config.sh &&
     sudo apt-get update && \
     sudo apt-get install -y python-qt4 && \
 
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install numpy scipy && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install scikit-learn && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install pillow && \
-    /usr/local/anaconda3/envs/tensorflow/bin/conda install h5py && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install keras && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install gensim && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install theano && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install tensorboard && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install bcolz && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install opencv-python && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install graphviz && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install sklearn-pandas && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install isoweek && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install pandas_summary && \
-    /usr/local/anaconda3/envs/tensorflow/bin/pip install tqdm && \
-    /usr/local/anaconda3/envs/tensorflow/bin/conda update scikit-learn && \
-    /usr/local/anaconda3/envs/tensorflow/bin/conda install pytorch
+    /usr/local/anaconda3/envs/tensorflow/bin/pip install --upgrade pip && \
+    echo "Y" | /usr/local/anaconda3/envs/tensorflow/bin/conda install tensorflow-gpu && \
+    echo "Y" | /usr/local/anaconda3/envs/tensorflow/bin/conda install pytorch
     
 
 RUN echo 'export PATH=/usr/local/cuda/bin:/usr/local/anaconda3/envs/tensorflow/bin:$PATH' >> /home/nimbix/.bashrc \
