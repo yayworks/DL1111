@@ -36,7 +36,7 @@ EOF
 
 source /usr/local/anaconda3/bin/activate tensorflow
 
-sudo /usr/local/anaconda3/bin/conda install -c conda-forge tensorflow-gpu <<EOF
+sudo /usr/local/anaconda3/bin/conda install -c conda-forge tensorflow <<EOF
 y
 EOF
 
