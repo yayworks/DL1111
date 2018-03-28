@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y \
     apt-get install -y python3-pip && \
     apt-get install -y nodejs-legacy && \
     apt-get install -y npm && \
-    npm install -g configurable-http-proxy && \
+ ##   npm install -g configurable-http-proxy && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
     
