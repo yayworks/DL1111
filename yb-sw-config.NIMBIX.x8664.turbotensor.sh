@@ -4,9 +4,9 @@
 #                                                                                                  #
 # yb--sw-config.NIMBIX.x8664.turbotensor.sh - Software installs & configuration for Ubuntu TF Lab  #
 #                                                                                                  #
-# Copyright (C) 2017 Yayworks, Inc. - All Rights Reserved                                          #
+# Copyright (C) 2018 Yayworks, Inc. - All Rights Reserved                                          #
 #                                                                                                  #
-# Last revised 08/09/2017                                                                          #
+# Last revised 03/28/2018                                                                          #
 #                                                                                                  #
 ####################################################################################################
 
