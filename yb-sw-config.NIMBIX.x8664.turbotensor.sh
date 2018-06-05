@@ -11,10 +11,10 @@
 ####################################################################################################
 
 
-wget https://repo.continuum.io/archive/Anaconda3-4.4.0-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
 
 (
-sudo bash Anaconda3-4.4.0-Linux-x86_64.sh <<EOF
+sudo bash Anaconda3-5.2.0-Linux-x86_64.sh <<EOF
 
 yes
 /usr/local/anaconda3
